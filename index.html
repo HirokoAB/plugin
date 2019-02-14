@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="ja">
+<meta charset="utf-8">
+<head>
+
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/jquery-modal/0.9.1/jquery.modal.min.css">
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.4.1/css/swiper.min.css">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <title>プラグイン練習</title>
+</head>
+<body>
+
+<!-- swiperの使い方
+CDNで呼ぶ
+マニュアルに従って貼り付け
+動作確認
+ -->
+<!-- div.swiper-container>div.swiper-wrapper>div.swiper-slider{slide $} -->
+
+
+
+<div class="swiper-container">
+    
+    <div class="swiper-wrapper">
+        <div class="swiper-slide">slide 1</div>
+        <div class="swiper-slide">slide 2</div>
+        <div class="swiper-slide">slide 3</div>
+    </div>
+
+    <!-- <div class="swiper-pagination"></div> -->
+
+    <div class="swiper-button-prev"></div>
+    <div class="swiper-button-next"></div>
+
+</div>
+
+<div id="ex1" class="modal">
+    <p>モーダル出てるよねー</p>
+    <a href="a" rel="modal:close">close</a>
+</div>
+<p><a href="#ex1" rel="modal:open">開けモーダル</a></p>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.0.0/jquery.min.js"></script>
+
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.4.1/js/swiper.min.js"></script>
+<!-- モーダル用 -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-modal/0.9.1/jquery.modal.min.js"></script>
+<script type="text/javascript" src="app.js"></script>
+</body>
+</html>
